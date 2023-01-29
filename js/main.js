@@ -25,5 +25,4 @@ document.querySelectorAll('nav-link').forEach(
     e => e.addEventListener('click', () => {
         hamburger.classList.remove('active');
         navMenu.classList.remove('active');
-        
 }))
