@@ -469,11 +469,14 @@
         align-items: center;
     }
 }
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1180px) {
     .marketing .box {
         width: auto;
         height: auto;
     }
+}
+@media screen and (max-width: 1120px) {
+    
     .our-project .container .projects .project {
         flex-direction: column;
         align-items: center;
@@ -512,7 +515,6 @@
     .background .header h2 {
         font-size: 30px;
         line-height: 50px;
-        border-bottom: 2px solid #2A7997;
     }
     .goals .para {
         display: flex;

@@ -17,5 +17,5 @@ btnSend.addEventListener('click', () => {
         check.classList.replace("fa-circle-notch", "fa-circle-check");
         check.classList.add("checked");
         btnText.style = "margin-left: 5px";
-    }, 2000)
+    }, 1000)
 })

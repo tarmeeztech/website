@@ -1,0 +1,456 @@
+/*------- Section 1 -------*/
+.s1 .container .text .para {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 20px;
+}
+.s1 .container .text .para .left {
+    margin: 20px auto;
+}
+.s1 .container .text .para .left .line {
+    margin-top: 10px;
+    width: 350px;
+    border: 2px solid #2A7997;
+}
+.s1 .container .text .para .left h1 {
+    text-align: left;
+    width: 520px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 62px;
+    color: #2A7997;
+}
+.s1 .container .text .para .p-section {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    color: rgba(17, 22, 41, 0.8);
+}
+.s1 .container .text .para .left .p-section {
+    width: 530px;
+}
+.s1 .container .text a {
+    display: inline-block;
+    background: #2A7997;
+    border: 2px solid #2A7997;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    color: var(--color-white);
+    padding: 3px 45px;
+    margin: 20px auto;
+    margin: auto 30px;
+}
+
+
+/*------- Section 2 -------*/
+.s2 .container .box {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    width: 1393px;
+    /* height: 1060px; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    align-items: center;
+    margin: 20px auto;
+}
+.s2 .container .box h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 62px;
+    text-align: center;
+    color: #2A7997;
+    width: 1130px;
+}
+.s2 .container .box h2:nth-child(2) {
+    color: #82BB76;
+}
+.s2 .container .box .cards {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.s2 .container .box .cards .card {
+    width: 220px;
+    height: 260px;
+    background: #F2F9F9;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.s2 .container .box .cards .card img {
+    width: 110px;
+}
+.s2 .container .box .cards .card p {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 31px;
+    text-align: center;
+    color: #2A7997;
+}
+
+
+/*------- Type Service -------*/
+.type-service .container .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.type-service .container .text h1 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 55px;
+    text-align: center;
+    color: #1D3867;
+    width: 800px;
+}
+.type-service .container .text p {
+    text-align: left;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 31px;
+    color: #1D3867;
+    width: 800px;
+}
+.type-service .container .text h1 span {
+    color: #B4C336;
+}
+.type-service .container .text .line {
+    width: 450px;
+    border: 2px solid #2A7997;
+}
+.type-service .container .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin: 30px;
+}
+.type-service .container .cards .card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.type-service .container .cards .card .img {
+    background: url(../images/Polygon\ 2.png) no-repeat center center / cover;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.type-service .container .cards .card img {
+    width: 116px;
+    height: 116px;
+}
+.type-service .container .para {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+.type-service .container .para h2 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 55px;
+    color: #1D3867;
+    width: 650px;
+}
+.type-service .container .para p {
+    width: 627px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    color: rgba(17, 22, 41, 0.8);
+}
+
+
+/*------- Questions -------*/
+.questions {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.questions .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+}
+.questions .container .question {
+    display: flex;
+    background: #D6ECEC;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px 0px 0px 20px;
+    padding: 50px 30px;
+    flex-direction: column;
+}
+.questions .container .question h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 64px;
+    color: #1D3867;
+}
+.questions .container .question p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1D3867;
+    max-width: 582px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.accordion {
+    max-width: 653px;
+}
+.accordion .content-box {
+    position: relative;
+    margin-top: 10px;
+}
+.accordion .content-box .label {
+    position: relative;
+    background-color: var(--color-white);
+    font-weight: 500;
+    font-size: 17px;
+    color: #1D3867;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s;
+}
+.accordion .content-box .label::before {
+    content: '+';
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+.accordion .content-box.active .label::before {
+    content: '-';
+}
+.accordion .content-box .content p {
+    position: relative;
+    padding: 10px 20px;
+    text-align: justify;
+    display: none;
+}
+.accordion .content-box.active .content p {
+    display: block;
+}
+.questions .free {
+    padding: 50px 30px;
+    background: rgba(214, 236, 236, 0.32);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.questions .free .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.questions .free .text h3 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 64px;
+    text-align: center;
+    color: #1D3867;
+}
+.questions .free .text p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    color: #2A7997;
+    text-align: left;
+}
+.questions .free .text .line {
+    width: 250px;
+    border: 2px solid #1D3867;
+}
+.questions .free input,
+.questions .free textarea {
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    padding: 15px;
+}
+.questions .free textarea {
+    resize: none;
+}
+.questions .free .btn-send {
+    width: 50%;
+    padding: 10px;
+    color: var(--color-white);
+    background-color: #003366;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    margin-top: 15px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.questions .free .btn-send i {
+    font-size: 14px;
+    display: none;
+}
+.questions .free .btn-send span {
+    margin-left: 5px;
+}
+
+
+/*------- Related Services -------*/
+.related-services .container .text h2 {
+    color: #1D3867;
+    border-bottom: 3px solid #2A7997;
+}
+.related-services .container .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.related-services .container .cards .card {
+    background: rgba(214, 236, 236, 0.32);
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    padding: 40px 30px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.related-services .container .cards .card:hover {
+    background: #409FB3;
+}
+.related-services .container .cards .card:hover h3,
+.related-services .container .cards .card:hover p  {
+    color: var(--color-white);
+}
+.related-services .container .cards .card:hover img {
+    color: var(--color-white);
+}
+.related-services .container .cards .card img {
+    width: 90px;
+    height: 90px;
+}
+.related-services .container .cards .card h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    color: #1D3867;
+}
+.related-services .container .cards .card p {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 31px;
+    color: #1D3867;
+    width: 320px;
+}
+
+
+
+
+
+
+
+/*------- Media Queries -------*/
+@media screen and (max-width: 1440px) {
+    .s2 .container .box {
+        width: auto;
+    }
+    .s2 .container .box h2 {
+        width: auto;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .questions .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .questions .container .question,
+    .questions .container .free {
+        border-radius: 20px;
+        width: 690px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .s1 .container .text .para {
+        flex-direction: column;
+        align-items: center;
+    }
+    .s1 .container .text .para .left {
+        width: 700px;
+    }
+    .s1 .container .text .para .left .p-section, 
+    .s1 .container .text .para .left h1,
+    .s1 .container .text .para .p-section {
+        width: auto;
+    }
+}
+@media screen and (max-width: 820px) {
+    .type-service .container .text p,
+    .type-service .container .text h1 {
+        width: auto;
+    }
+    
+}
+@media screen and (max-width: 786px) {
+    .s2 .container .box h2 {
+        font-size: 25px;
+    }
+    .s1 .container .text .para .left h1 {
+        font-size: 30px;
+    }
+    .s1 .container .text .para .left {
+        width: auto;
+    }
+    .type-service .container .para {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .type-service .container .para h2, 
+    .type-service .container .para p {
+        width: auto;
+    }
+    .questions .container .question,
+    .questions .container .free {
+        width: auto;
+    }
+}
+@media screen and (max-width: 520px) {
+    .s1 .container .text .para .left .line {
+        width: 250px;
+    }
+    .type-service .container .text .line {
+        max-width: 280px;
+    }
+    .related-services .container .cards .card,
+    .related-services .container .cards .card p {
+        width: auto;
+    }
+}
