@@ -402,9 +402,10 @@
     .s1 .container .text .para {
         flex-direction: column;
         align-items: center;
+        gap: 0;
     }
     .s1 .container .text .para .left {
-        width: 700px;
+        width: auto;
     }
     .s1 .container .text .para .left .p-section, 
     .s1 .container .text .para .left h1,

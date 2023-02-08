@@ -1,25 +1,6 @@
-:root {
-	--main-color-1: #368FA7;
-	--main-color-2: #00425A;
-	--secondary-color-1: #111629;
-	--secondary-color-2: #4AB0BF;
-	--secondary-color-3: #BFDB38;
-    --section-padding: 60px;
-    --section-background: #eaf0f9;
-    --color-white: #fff;
-    --icon-main-color: #111629;
-
-    --card-border-radius: 2rem;
-    --border-radius-1: 0.4rem;
-    --border-radius-2: 0.8rem;
-    --border-radius-3: 1.2rem;
-
-    --card-padding: 10px;
-    --padding-1: 1.2rem;
-
-    --box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-}
 .navbar {
+    position: sticky;
+    top: 0;
     background-color: var(--color-white);
 }
 .container .text {
