@@ -1,3 +1,6 @@
+.background .header h2 {
+    width: 900px;
+}
 /*------- Section 1 -------*/
 .s1 .container .text .para {
     display: flex;
@@ -72,7 +75,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
     justify-content: center;
 }
@@ -91,6 +94,7 @@
 }
 .s2 .container .box .cards .card img {
     width: 110px;
+    height: 110px;
 }
 .s2 .container .box .cards .card p {
     font-weight: 600;
@@ -98,6 +102,10 @@
     line-height: 31px;
     text-align: center;
     color: #2A7997;
+    height: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -135,12 +143,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 60px;
     justify-content: center;
     margin: 30px;
 }
 .type-service .container .cards .card {
-    width: 200px;
+    max-width: 370px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,9 +162,18 @@
     align-items: center;
     justify-content: center;
 }
+.type-service .container .cards .card h1 {
+    color: #1D3867;
+}
+.type-service .container .cards .card p {
+    font-size: 19px;
+    color: #1D3867;
+    font-weight: 600;
+    text-align: center;
+}
 .type-service .container .cards .card img {
-    width: 116px;
-    height: 116px;
+    width: 90px;
+    height: 90px;
 }
 .type-service .container .para {
     display: flex;
@@ -166,7 +183,7 @@
 }
 .type-service .container .para h2 {
     font-weight: 600;
-    font-size: 35px;
+    font-size: 33px;
     line-height: 55px;
     color: #1D3867;
     width: 650px;

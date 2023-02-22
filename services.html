@@ -133,52 +133,88 @@
         </section>
         <!-- Parts -->
         <section class="parts">
-            <div class="box">
-                <div class="part">
-                    <h1>Title</h1>
-                    <p>One of our goals that we seek to achieve is to provide the best services in designing and
-                        developing websites in an optimal manner and with high efficiency and accuracy.
-                        And at the best competitive prices, as we have the best professional designers and programmers
-                        in this field,
-                        We create your website with high professionalism to serve your commercial identity. We are also
-                        distinguished by speed and attractive designs.
-                    </p>
-                    <a href="subservice.html">Learn More <i class="fa fa-circle-chevron-right"></i></a>
+            <!-- Swiper -->
+            <div class="swiper mySwiper-box">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="part">
+                                <h1>Title</h1>
+                                <p class="p-h">
+                                    One of our goals that we seek to achieve is to provide the best services in
+                                    designing and
+                                    developing websites in an optimal manner and with high efficiency and accuracy.
+                                </p>
+                                <div class="box-links">
+                                    <p class="p-link"><a href="#">Custom Software Development</a></p>
+                                    <p class="p-link"><a href="#">Custom Software Development</a></p>
+                                    <p class="p-link"><a href="#">Custom Software Development</a></p>
+                                </div>
+                                <a class="more" href="subservice.html">Learn More <i
+                                        class="fa fa-circle-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="part">
+                                <h1>Title</h1>
+                                <p class="p-h">
+                                    One of our goals that we seek to achieve is to provide the best services in
+                                    designing and
+                                </p>
+                                <div class="box-links">
+                                    <p class="p-link"><a href="#">Custom Software Development</a></p>
+                                    <p class="p-link"><a href="#">Custom Software Development</a></p>
+                                    <p class="p-link"><a href="#">Custom Software Development</a></p>
+                                </div>
+                                <a class="more" href="subservice.html">Learn More <i
+                                        class="fa fa-circle-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="part">
+                                <h1>Title</h1>
+                                <p class="p-h">
+                                    One of our goals that we seek to achieve is to provide the best services in
+                                    designing and
+                                    developing websites in an optimal manner and with high efficiency and accuracy.
+                                </p>
+                                <div class="box-links">
+                                    <p class="p-link"><a href="#">Custom Software Development</a></p>
+                                    <p class="p-link"><a href="#">Custom Software Development</a></p>
+                                    <p class="p-link"><a href="#">Custom Software Development</a></p>
+                                </div>
+                                <a class="more" href="subservice.html">Learn More <i
+                                        class="fa fa-circle-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="part">
+                                <h1>Title</h1>
+                                <p class="p-h">
+                                    One of our goals that we seek to achieve is to provide the best services in
+                                    designing and
+                                    developing websites in an optimal manner and with high efficiency and accuracy.
+                                </p>
+                                <div class="box-links">
+                                    <p class="p-link"><a href="#">Custom Software Development</a></p>
+                                    <p class="p-link"><a href="#">Custom Software Development</a></p>
+                                    <p class="p-link"><a href="#">Custom Software Development</a></p>
+                                </div>
+                                <a class="more" href="subservice.html">Learn More <i
+                                        class="fa fa-circle-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="part">
-                    <h1>Title</h1>
-                    <p>One of our goals that we seek to achieve is to provide the best services in designing and
-                        developing websites in an optimal manner and with high efficiency and accuracy.
-                        And at the best competitive prices, as we have the best professional designers and programmers
-                        in this field,
-                        We create your website with high professionalism to serve your commercial identity. We are also
-                        distinguished by speed and attractive designs.
-                    </p>
-                    <a href="subservice2.html">Learn More <i class="fa fa-circle-chevron-right"></i></a>
-                </div>
-                <div class="part">
-                    <h1>Title</h1>
-                    <p>One of our goals that we seek to achieve is to provide the best services in designing and
-                        developing websites in an optimal manner and with high efficiency and accuracy.
-                        And at the best competitive prices, as we have the best professional designers and programmers
-                        in this field,
-                        We create your website with high professionalism to serve your commercial identity. We are also
-                        distinguished by speed and attractive designs.
-                    </p>
-                    <a href="subservice.html">Learn More <i class="fa fa-circle-chevron-right"></i></a>
-                </div>
-                <div class="part">
-                    <h1>Title</h1>
-                    <p>One of our goals that we seek to achieve is to provide the best services in designing and
-                        developing websites in an optimal manner and with high efficiency and accuracy.
-                        And at the best competitive prices, as we have the best professional designers and programmers
-                        in this field,
-                        We create your website with high professionalism to serve your commercial identity. We are also
-                        distinguished by speed and attractive designs.
-                    </p>
-                    <a href="subservice2.html">Learn More <i class="fa fa-circle-chevron-right"></i></a>
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
+
         </section>
         <!-- How do we do that? -->
         <section class="how-do">
@@ -434,6 +470,30 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
+        var swiper = new Swiper(".mySwiper-box", {
+            // slidesPerView: 2,
+            centeredSlides: true,
+            spaceBetween: 30,
+            grabCursor: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                520: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 1,
+                },
+                1000: {
+                    slidesPerView: 2,
+                },
+            },
+        });
         var swiper = new Swiper(".mySwiper", {
             navigation: {
                 nextEl: ".swiper-button-next",

@@ -114,12 +114,13 @@
 
 /*------- Parts -------*/
 .parts .box {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     margin: 40px auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    max-width: 700px ;
 }
 .parts .box .part {
-    border: 1px solid rgba(130, 187, 118, 0.3);
     padding: 50px;
     position: relative;
 }
@@ -131,37 +132,51 @@
 .parts .box .part p {
     font-weight: 500;
     font-size: 20px;
-    line-height: 31px;
+    line-height: 31px; 
 }
-.parts .box .part a {
+/* .parts .box .part .p-h {
+    height: 93px;
+} */
+.parts .box .part .box-links {
+    margin-top: 30px;
+}
+.parts .box .part p.p-link {
+    margin-top: 15px;
+}
+.parts .box .part p a {
+    color: #000;
+    border-bottom: 1px solid #d1d1d1;
+}
+.parts .box .part a.more {
     color: #B4C336;
     font-size: 18px;
     font-weight: 700;
     position: absolute;
-    right: 70px;
     display: flex;
     align-items: center;
     gap: 5px;
-}.parts .box .part a i {
+    margin-top: 15px;
+    right: 25px;
+    bottom: 25px;
+}
+.parts .box .part a i {
     font-size: 22px;
 }
-.parts .box .part:nth-child(1) {
-    border-left: 0;
+.parts .swiper {
+    width: 100%;
+    height: 100%;
+    padding: 10px !important;
 }
-.parts .box .part:nth-child(2) {
-    border-left: 0;
-    border-right: 0;
-}
-.parts .box .part:nth-child(3) {
-    border-left: 0;
-    border-top: 0;
-}
-.parts .box .part:nth-child(4) {
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-}
-
+/* .parts .swiper-backface-hidden .swiper-slide {
+    max-width: 700px;
+    width: auto !important;
+} */
+/* @media screen and (max-width: 745px) {
+    .parts .swiper-backface-hidden .swiper-slide {
+        width: fit-content !important;
+        margin-left: 30px;
+    }
+} */
 
 /*------- How do we do that? -------*/
 .how-do .container h2 {
@@ -473,10 +488,6 @@
     }
 }
 @media screen and (max-width: 786px) {
-    .parts .box {
-        display: grid;
-        grid-template-columns: auto;
-    }
     .how-do .container .boxes-grid {
         grid-template-columns: auto;
     }

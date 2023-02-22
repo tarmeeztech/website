@@ -1,0 +1,198 @@
+:root {
+    --primary-color: #1D3867;
+	--main-color-1: #2A7997;
+	--main-color-2: #00425A;
+	--secondary-color-1: #111629;
+	--secondary-color-2: #4AB0BF;
+	--secondary-color-3: #BFDB38;
+    --section-padding: 60px;
+    --section-background: #eaf0f9;
+    --color-white: #fff;
+    --icon-main-color: #111629;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding: 10px;
+    --padding-1: 1.2rem;
+
+    --box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.challenge {
+    margin: 50px 0;
+    padding: 40px 20px;
+    background: rgba(214, 236, 236, 0.32);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.challenge .c-container {
+    padding: 0px 50px;
+    flex-direction: column;
+}
+.challenge h2 {
+    font-size: 36px;
+    color: var(--main-color-1);
+    font-weight: 700;
+}
+.row-1-col-3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.row-1-col-3 p {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(17, 22, 41, 0.8);
+}
+.row-1-col-3 .col-1 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.row-1-col-3 .col-1.row-3 .title {
+    font-size: 25px;
+    color: var(--primary-color);
+    display: block;
+    font-weight: 700;
+}
+
+
+/*------- Free Consultation -------*/
+.free .container .box {
+    width: 1393px;
+    border-radius: 30px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.free .container .box p {
+    font-weight: 700;
+    font-size: 30px;
+    width: 700px;
+    line-height: 47px;
+    text-align: center;
+    color: #1D3867;
+}
+.free .container .box .button .get {
+    color: var(--color-white);
+    background: #2a7997;
+    border: 2px solid #2a7997;
+    box-shadow: rgb(0 0 0 / 25%) 0px 0px 20px;
+    border-radius: 20px;
+    padding: 3px 45px;
+    margin-top: 25px;
+}
+.free .container .box .button {
+    display: flex;
+    gap: 20px;
+}
+.free .container .box .button .tel {
+    color: #2a7997;
+    background: transparent;
+    border: 2px solid #2a7997;
+    box-shadow: rgb(0 0 0 / 25%) 0px 0px 20px;
+    border-radius: 20px;
+    padding: 3px 45px;
+    margin-top: 25px;
+}
+.free .container .box .button .tel:hover {
+    color: var(--color-white);
+    background: #2a7997;
+}
+
+
+
+.industry .title {
+    color: var(--primary-color) !important;
+    border-bottom: 2px solid;
+}
+.industry .p-section {
+    width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+.industry .swiper {
+    padding-bottom: 50px;
+}
+.industry .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.industry .swiper-wrapper {
+    align-items: center;
+}
+.industry .swiper-pagination-bullet-active {
+    width: 30px;
+    border-radius: 10px;
+}
+.industry .swiper-slide img {
+    display: block;
+    width: 85%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.industry .swiper-slide-active img {
+    width: 100%;
+}
+
+
+
+
+/*------- Media Queries -------*/
+@media screen and (max-width: 1415px) {
+    .free .container .box {
+        width: auto;
+    }
+}
+@media screen and (max-width: 1260px) {
+    .row-1-col-3 {
+        flex-direction: column;
+    }
+    .row-1-col-3 .col-1 {
+        width: auto;
+    }
+}
+@media screen and (max-width: 786px) {
+    .background .header h2 {
+        font-size: 36px;
+        line-height: 53px;
+    }
+    .challenge .c-container {
+        padding: 0px 10px;
+    }
+    .challenge h2 {
+        font-size: 30px;
+    }
+    .free .container .box p {
+        font-size: 25px;
+        width: auto;
+    }
+}
+@media screen and (max-width: 520px) {
+    .background .header h2 {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .free .container .box {
+        gap: 20px;
+        padding: 10px;
+    }
+    .free .container .box .button {
+        gap: 5px;
+        flex-direction: column;
+    }
+    .free .container .box p {
+        font-size: 20px;
+    }
+    .industry .p-section {
+        width: auto;
+    }
+}
