@@ -54,6 +54,16 @@ body {
 a {
     text-decoration: none;
 }
+@media screen and (max-width: 786px) {
+    .background .header {
+        height: 240px;
+    }
+}
+@media screen and (max-width: 250px) {
+    .background .header {
+        height: 200px;
+    }
+}
 /*------- Navbar -------*/
 nav{
     position: fixed;

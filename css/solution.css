@@ -145,73 +145,49 @@
 }
 
 
-/*------- Item Vault -------*/
-.item-vault .container .row-col-2 {
+/*------- Industry -------*/
+.industry .title {
+    color: var(--primary-color) !important;
+    border-bottom: 2px solid;
+}
+.industry .p-section {
+    width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+.industry .swiper {
+    padding-bottom: 50px;
+}
+.industry .swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    margin-top: 50px;
 }
-.item-vault .container .row-col-2 .left {
-    padding: 10px;
-    width: 600px;
-}
-.item-vault .container .row-col-2 .left h3 {
-    font-size: 35px;
-    color: var(--main-color-1);
-}
-.item-vault .container .row-col-2 .left p {
-    font-size: 18px;
-    color: rgba(17, 22, 41, 0.8);
-}
-.item-vault .container .row-col-2 .left .btn-project {
-    font-size: 18px;
-    color: var(--main-color-1);
-    padding: 2px 20px;
-    border: 2px solid var(--main-color-1);
-    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
-    border-radius: 20px;
-    display: flex;
-    width: max-content;
-    margin-top: 10px;
+.industry .swiper-wrapper {
     align-items: center;
-    gap: 10px;
 }
-.item-vault .container .row-col-2 .left .btn-project:hover {
-    color: var(--color-white);
-    background-color: var(--main-color-1);
+.industry .swiper-pagination-bullet-active {
+    width: 30px;
+    border-radius: 10px;
 }
-.item-vault .container .row-col-2 .left .btn-project i {
-    font-size: 22px;
+.industry .swiper-slide img {
+    display: block;
+    width: 85%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
 }
-.item-vault .container .row-col-2 .right img {
-    width: 650px;
-    height: 600px;
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
-    border-radius: 40px;
-    position: relative;
+.industry .swiper-slide-active img {
+    width: 100%;
 }
-.item-vault .container .row-col-2 .right {
-    position: relative;
+@media screen and (max-width: 520px) {
+    .industry .p-section {
+        width: auto;
+    }
 }
-.item-vault .container .row-col-2 .right .point {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    right: 0;
-}
-.item-vault .container .row-col-2 .right .point2 {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    left: -150px;
-    top: -90px;
-}
-.item-vault .container .row2.row-col-2 {
-    flex-direction: row-reverse;
-}
+
+
+
 
 
 /*------- Partner -------*/

@@ -150,9 +150,14 @@
     <!-- Main Page & Footer -->
     <div class="background">
         <div class="header">
-            <!-- <video autoplay loop muted plays-inline>
-                <source src="images/welcome.mkv" type="video/mp4" class="back-video">
-            </video> -->
+            <!-- Swiper -->
+            <div class="swiper header">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
         <!-- What We Do? -->
         <div class="side-icons">
@@ -828,6 +833,11 @@
     <!-- swiper.js -->
     <script src="js/swiper-bundle.min.js"></script>
     <script>
+        var swiper = new Swiper(".header", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 4,
             spaceBetween: 20,
@@ -898,7 +908,6 @@
                 disableOnInter: false
             },
         });
-
         var swiper = new Swiper(".slide-content", {
             slidesPerView: 3,
             spaceBetween: 25,
