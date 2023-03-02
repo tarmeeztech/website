@@ -102,6 +102,9 @@
 
 
 /*------- Counter Item -------*/
+.viwes {
+    position: relative;
+}
 .viwes .wave {
     width: 100%;
 }
@@ -117,6 +120,8 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 100px;
+    position: relative;
+    z-index: 5;
 }
 .viwes .row-1-col-2 .part {
     display: flex;
@@ -162,6 +167,26 @@
     font-size: 36px;
     color: #1D3867;
 }
+.viwes .circle {
+    position: absolute;
+}
+.viwes .circle:nth-child(1) {
+    width: 24rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-85%, -125%);
+}
+.viwes .video {
+    display: flex;
+    justify-content: center;
+    background: #2a7997;
+    position: relative;
+}
+.viwes .video iframe {
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+}
 @media screen and (max-width: 520px) {
     .background .header {
         height: 250px;
@@ -183,5 +208,13 @@
     }
     .viwes .row-1-col-2 .part h3 {
         font-size: 30px;
+    }
+    .viwes .video iframe {
+        width: 300px;
+        height: 300px;
+    }
+    .viwes .circle:nth-child(1) {
+        width: 16rem;
+        transform: translate(-65%, -130%);
     }
 }
